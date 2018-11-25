@@ -6,4 +6,3 @@ RUN tar zxf /frp/frp_0.21.0_linux_amd64.tar.gz -C /frp/ \
     && chmod +x /frp/frp_0.21.0_linux_amd64/frps \
     && chmod +x /frp/frp_0.21.0_linux_amd64/frpc \
     && chmod +x /frp/start.sh
-ENTRYPOINT ["/frp/start.sh"]
